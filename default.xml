@@ -43,7 +43,6 @@
   <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="bdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="bdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="bdk" />
-  <project path="device/intel/edison" name="device/intel/edison" groups="edison" />
   <project path="external/aac" name="platform/external/aac" groups="bdk" />
   <project path="external/avahi" name="platform/external/avahi" groups="bdk" />
   <project path="external/bison" name="platform/external/bison" groups="bdk" />
@@ -120,6 +119,7 @@
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="bdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="bdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="bdk" />
+  <project path="external/valgrind" name="platform/external/valgrind" groups="bdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="bdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="bdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="bdk" />
@@ -174,6 +174,9 @@
 
   <!-- BEGIN starter boards -->
   <!-- Intel -->
+  <project path="device/intel/edison"
+	   name="device/intel/edison"
+	   groups="edison" />
   <project path="hardware/bsp/intel"
            name="platform/hardware/bsp/intel"
            groups="edison" />
