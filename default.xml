@@ -185,8 +185,7 @@
            name="platform/hardware/bsp/intel"
            groups="edison" />
   <project path="hardware/bsp/kernel/intel/edison-3.10"
-           name="platform/hardware/bsp/kernel/intel"
-           revision="edison-3.10"
+           name="platform/hardware/bsp/kernel/intel/edison-v3.10"
            groups="edison" />
   <!-- Qualcomm Dragonboard -->
   <project path="device/qcom/dragonboard"
