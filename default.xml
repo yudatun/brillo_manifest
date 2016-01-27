@@ -187,6 +187,9 @@
   <project path="hardware/bsp/kernel/intel/edison-3.10"
            name="platform/hardware/bsp/kernel/intel/edison-v3.10"
            groups="edison" />
+  <project path="hardware/broadcom/libbt"
+           name="platform/hardware/broadcom/libbt"
+           groups="edison" />
   <!-- Qualcomm Dragonboard -->
   <project path="device/qcom/dragonboard"
            name="device/qcom/dragonboard"
