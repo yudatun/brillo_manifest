@@ -177,12 +177,13 @@
   <project path="system/webservd" name="platform/system/webservd" groups="bdk" />
 
   <!-- BEGIN starter boards -->
+  <!-- Intel SoCs and Peripherals -->
+  <project path="hardware/bsp/intel"
+           name="platform/hardware/bsp/intel"
+           groups="edison,minnowboard" />
   <!-- Intel Edison -->
   <project path="device/intel/edison"
            name="device/intel/edison"
-           groups="edison" />
-  <project path="hardware/bsp/intel"
-           name="platform/hardware/bsp/intel"
            groups="edison" />
   <project path="hardware/bsp/kernel/intel/edison-3.10"
            name="platform/hardware/bsp/kernel/intel/edison-v3.10"
@@ -190,6 +191,13 @@
   <project path="hardware/broadcom/libbt"
            name="platform/hardware/broadcom/libbt"
            groups="edison" />
+  <!-- Intel MinnowBoard -->
+  <project path="device/intel/minnowboard"
+           name="device/intel/minnowboard"
+           groups="minnowboard" />
+  <project path="hardware/bsp/kernel/intel/minnowboard-3.14"
+           name="platform/hardware/bsp/kernel/intel/minnowboard-v3.14"
+           groups="minnowboard" />
   <!-- Qualcomm Dragonboard -->
   <project path="device/qcom/dragonboard"
            name="device/qcom/dragonboard"
