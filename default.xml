@@ -198,8 +198,7 @@
            name="platform/hardware/bsp/qcom"
            groups="dragonboard" />
   <project path="hardware/bsp/kernel/qcom/qcom-msm-3.10"
-           name="platform/hardware/bsp/kernel/qcom"
-           revision="qcom-msm-3.10"
+           name="platform/hardware/bsp/kernel/qcom/qcom-msm-v3.10"
            groups="dragonboard" />
   <!-- Marvell Abox -->
   <project path="device/marvell/abox_edge"
@@ -209,8 +208,7 @@
            name="platform/hardware/bsp/marvell"
            groups="abox" />
   <project path="hardware/bsp/kernel/marvell/pxa-3.14"
-           name="platform/hardware/bsp/kernel/marvell"
-           revision="pxa-3.14"
+           name="platform/hardware/bsp/kernel/marvell/pxa-v3.14"
            groups="abox" />
   <!-- END starter boards -->
 </manifest>
