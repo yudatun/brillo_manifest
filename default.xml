@@ -218,5 +218,25 @@
   <project path="hardware/bsp/kernel/marvell/pxa-3.14"
            name="platform/hardware/bsp/kernel/marvell/pxa-v3.14"
            groups="abox" />
+  <!-- Rockchip Kylin -->
+  <project path="device/rockchip/kylin"
+           name="device/rockchip/kylin"
+           groups="kylin" />
+  <project path="hardware/bsp/rockchip"
+           name="platform/hardware/bsp/rockchip"
+           groups="kylin" />
+  <project path="hardware/bsp/kernel/rockchip/rk4.1"
+           name="platform/hardware/bsp/kernel/rockchip"
+           groups="kylin" />
+  <!-- Freescale Picoimx -->
+  <project path="device/freescale/picoimx"
+           name="device/freescale/picoimx"
+           groups="picoimx" />
+  <project path="hardware/bsp/freescale"
+           name="platform/hardware/bsp/freescale"
+           groups="picoimx" />
+  <project path="hardware/bsp/kernel/freescale/picoimx-3.14"
+           name="platform/hardware/bsp/kernel/freescale"
+           groups="picoimx" />
   <!-- END starter boards -->
 </manifest>
