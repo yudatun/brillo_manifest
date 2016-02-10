@@ -234,7 +234,7 @@
            name="platform/hardware/bsp/freescale"
            groups="picoimx" />
   <project path="hardware/bsp/kernel/freescale/kernel_imx"
-           name="platform/hardware/bsp/kernel/freescale"
+           name="platform/hardware/bsp/kernel/freescale/picoimx-3.14"
            groups="picoimx" />
   <!-- END starter boards -->
 </manifest>
