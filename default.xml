@@ -166,6 +166,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="bdk" />
   <project path="system/media" name="platform/system/media" groups="bdk" />
   <project path="system/nativepower" name="platform/system/nativepower" groups="bdk" />
+  <project path="system/nvram" name="platform/system/nvram" groups="bdk" />
   <project path="system/peripheralmanager" name="platform/system/peripheralmanager" groups="bdk" />
   <project path="system/netd" name="platform/system/netd" groups="bdk" />
   <project path="system/security" name="platform/system/security" groups="bdk" />
