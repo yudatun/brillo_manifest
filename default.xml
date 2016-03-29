@@ -107,7 +107,6 @@
   <project path="external/rootdev" name="platform/external/rootdev" groups="bdk" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="bdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="bdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="bdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="bdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="bdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="bdk" />
@@ -171,6 +170,7 @@
   <project path="system/peripheralmanager" name="platform/system/peripheralmanager" groups="bdk" />
   <project path="system/netd" name="platform/system/netd" groups="bdk" />
   <project path="system/security" name="platform/system/security" groups="bdk" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="bdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="bdk" />
   <project path="system/tpm" name="platform/system/tpm" groups="bdk" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="bdk" />
