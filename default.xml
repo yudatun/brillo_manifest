@@ -139,6 +139,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="bdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="bdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" groups="bdk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="bdk" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="linux,bdk" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="linux,arm,bdk" />
