@@ -172,6 +172,7 @@
   <project path="system/security" name="platform/system/security" groups="bdk" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="bdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="bdk" />
+  <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="bdk" />
   <project path="system/tpm" name="platform/system/tpm" groups="bdk" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="bdk" />
   <project path="system/weaved" name="platform/system/weaved" groups="bdk" />
