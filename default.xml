@@ -10,7 +10,7 @@
 
   <!-- Brillo-specific build tooling -->
   <project path="device/generic/brillo" name="device/generic/brillo" groups="bdk" />
-  <project path="tools/bdk" name="platform/tools/bdk" groups="bdk" />
+  <project path="tools/bdk" name="platform/tools/bdk" groups="bdk,bdk-cli" />
 
   <project path="external/gentoo/integration" name="platform/external/gentoo/integration" groups="bdk" />
   <project path="external/gentoo/overlays/gentoo" name="platform/external/gentoo/overlays/gentoo" groups="bdk" clone-depth="1" />
