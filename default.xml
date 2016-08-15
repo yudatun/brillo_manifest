@@ -4,6 +4,12 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+
+  <!-- Add by Yudatun -->
+  <remote  name="yudatun"
+           fetch="ssh://git@github.com" />
+  <!-- END -->
+
   <default revision="master"
            remote="aosp"
            sync-j="4" />
