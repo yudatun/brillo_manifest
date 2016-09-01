@@ -60,9 +60,6 @@
   <project path="bootable/diskinstaller"
            name="yudatun/bootable_diskinstaller_raspberrypi"
            remote="yudatun" />
-  <project path="device/rpi/raspberrypi1"
-           name="yudatun/device_rpi_raspberrypi1"
-           remote="yudatun" />
   <project path="device/rpi/raspberrypi3"
            name="yudatun/device_rpi_raspberrypi3"
            remote="yudatun" />
