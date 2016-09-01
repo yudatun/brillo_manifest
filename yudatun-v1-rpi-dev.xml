@@ -4,6 +4,7 @@
   <include name="default.xml" />
 
   <remove-project name="device/generic/brillo" />
+  <remove-project name="platform/system/core" />
 
   <!-- Intel SoCs and Peripherals -->
   <remove-project name="platform/hardware/bsp/intel" />
@@ -30,6 +31,10 @@
 
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
+           remote="yudatun"
+           groups="bdk" />
+  <project path="system/core"
+           name="yudatun/brillo_system_core"
            remote="yudatun"
            groups="bdk" />
 
