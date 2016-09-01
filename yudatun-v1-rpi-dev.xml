@@ -5,6 +5,29 @@
 
   <remove-project name="device/generic/brillo" />
 
+  <!-- Intel SoCs and Peripherals -->
+  <remove-project name="platform/hardware/bsp/intel" />
+  <remove-project name="device/intel/edison" />
+  <remove-project name="platform/hardware/bsp/kernel/intel/edison-v3.10" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="device/intel/minnowboard" />
+  <!-- Marvell Abox -->
+  <remove-project name="device/marvell/abox_edge" />
+  <remove-project name="platform/hardware/bsp/marvell" />
+  <remove-project name="platform/hardware/bsp/kernel/marvell/pxa-v3.14" />
+  <!-- Rockchip Kylin -->
+  <remove-project name="device/rockchip/kylin" />
+  <remove-project name="platform/hardware/bsp/rockchip" />
+  <remove-project name="platform/hardware/bsp/kernel/rockchip" />
+  <!-- Freescale Picoimx -->
+  <remove-project name="device/freescale/picoimx" />
+  <remove-project name="platform/hardware/bsp/freescale" />
+  <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
+  <!-- Imagination Creator -->
+  <remove-project name="device/imagination/creatorci41" />
+  <remove-project name="platform/hardware/bsp/imagination" />
+  <remove-project name="platform/hardware/bsp/kernel/imagination/v4.1" />
+
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
