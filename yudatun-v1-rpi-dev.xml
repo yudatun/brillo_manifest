@@ -38,6 +38,9 @@
            remote="yudatun"
            groups="bdk" />
 
+  <project path="external/openssh"
+           name="platform/external/openssh" />
+
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
            name="yudatun/Documentation"
