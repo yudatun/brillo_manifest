@@ -33,13 +33,15 @@
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
            groups="bdk" />
+  <project path="external/openssh"
+           name="yudatun/brillo_external_openssh"
+           remote="yudatun" />
   <project path="system/core"
            name="yudatun/brillo_system_core"
            remote="yudatun"
            groups="bdk" />
 
-  <project path="external/openssh"
-           name="platform/external/openssh" />
+
 
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
