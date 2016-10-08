@@ -4,7 +4,6 @@
   <include name="default.xml" />
 
   <remove-project name="device/generic/brillo" />
-  <remove-project name="platform/external/tlsdate" />
 
   <!-- Intel SoCs and Peripherals -->
   <remove-project name="platform/hardware/bsp/intel" />
@@ -33,11 +32,6 @@
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
            groups="bdk" />
-  <project path="external/tlsdate"
-           name="yudatun/brillo_external_tlsdate"
-           remote="yudatun"
-           groups="bdk" />
-
 
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
