@@ -78,4 +78,9 @@
            remote="yudatun"
            revision="v1-rpi-dev" />
   <!-- END starter boards -->
+
+  <!-- Brillo product examples -->
+  <project path="product/yudatun/yudatun-smartcar"
+           name="product_yudatun_yudatun-smartcar"
+           remove="yudatun" />
 </manifest>
