@@ -81,6 +81,6 @@
 
   <!-- Brillo product examples -->
   <project path="product/yudatun/yudatun-smartcar"
-           name="product_yudatun_yudatun-smartcar"
+           name="yudatun/product_yudatun_yudatun-smartcar"
            remove="yudatun" />
 </manifest>
