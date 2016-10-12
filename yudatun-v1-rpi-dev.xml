@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml" />
+
+  <remove-project name="device/generic/brillo" />
+
+  <!-- Intel SoCs and Peripherals -->
+  <remove-project name="platform/hardware/bsp/intel" />
+  <remove-project name="device/intel/edison" />
+  <remove-project name="platform/hardware/bsp/kernel/intel/edison-v3.10" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="device/intel/minnowboard" />
+  <!-- Marvell Abox -->
+  <remove-project name="device/marvell/abox_edge" />
+  <remove-project name="platform/hardware/bsp/marvell" />
+  <remove-project name="platform/hardware/bsp/kernel/marvell/pxa-v3.14" />
+  <!-- Rockchip Kylin -->
+  <remove-project name="device/rockchip/kylin" />
+  <remove-project name="platform/hardware/bsp/rockchip" />
+  <remove-project name="platform/hardware/bsp/kernel/rockchip" />
+  <!-- Freescale Picoimx -->
+  <remove-project name="device/freescale/picoimx" />
+  <remove-project name="platform/hardware/bsp/freescale" />
+  <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
+  <!-- Imagination Creator -->
+  <remove-project name="device/imagination/creatorci41" />
+  <remove-project name="platform/hardware/bsp/imagination" />
+  <remove-project name="platform/hardware/bsp/kernel/imagination/v4.1" />
+
+  <project path="device/generic/brillo"
+           name="yudatun/brillo_device_generic_brillo"
+           remote="yudatun"
+           revision="master"
+           groups="bdk" />
+
+  <!-- Yudatun open-source projects -->
+  <project path="Documentation"
+           name="yudatun/Documentation"
+           remote="yudatun"
+           revision="master" />
+  <project path="external/dosfstools"
+           name="yudatun/external_dosfstools"
+           remote="yudatun"
+           revision="v1-rpi-dev" />
+  <project path="external/mtools"
+           name="yudatun/external_mtools"
+           remote="yudatun"
+           revision="v1-rpi-dev" />
+  <project path="external/wiringPi"
+           name="yudatun/external_wiringPi"
+           remote="yudatun"
+           revision="master" />
+  <project path="manifest"
+           name="yudatun/brillo_manifest"
+           remote="yudatun" />
+  <project path="system/tools/pt-box"
+           name="yudatun/system_tools_pt-box"
+           remote="yudatun"
+           revision="master" />
+
+  <!-- BEGIN starter boards -->
+  <!-- Raspberrypi -->
+  <project path="bootable/diskinstaller"
+           name="yudatun/bootable_diskinstaller_raspberrypi"
+           remote="yudatun"
+           revision="master" />
+  <project path="device/rpi/raspberrypi3"
+           name="yudatun/device_rpi_raspberrypi3"
+           remote="yudatun"
+           revision="master" />
+  <project path="device/rpi/raspberrypi-common"
+           name="yudatun/device_rpi_raspberrypi-common"
+           remote="yudatun"
+           revision="master" />
+  <project path="hardware/bsp/bcm"
+           name="yudatun/hardware_bsp_bcm"
+           remote="yudatun"
+           revision="master" />
+  <project path="hardware/bsp/kernel/bcm/linux"
+           name="yudatun/hardware_bsp_kernel_bcm_linux"
+           remote="yudatun"
+           revision="rpi-4.4.y" />
+  <project path="vendor/raspberrypi/firmware"
+           name="yudatun/vendor_raspberrypi_firmware"
+           remote="yudatun"
+           revision="v1-rpi-dev" />
+  <!-- END starter boards -->
+
+  <!-- Brillo product examples -->
+  <project path="product/yudatun/yudatun-smartcar"
+           name="yudatun/product_yudatun_yudatun-smartcar"
+           remote="yudatun"
+           revision="master" />
+</manifest>

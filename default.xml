@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
 
+  <!-- Add by Yudatun -->
+  <remote name="yudatun" fetch="ssh://git@github.com"/>
+  <!-- END -->
+
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default revision="brillo-m10-release" remote="aosp" sync-j="4"/>
 
