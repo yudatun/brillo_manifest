@@ -29,7 +29,6 @@
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
-           revision="master"
            groups="bdk" />
 
   <!-- Yudatun open-source projects -->
