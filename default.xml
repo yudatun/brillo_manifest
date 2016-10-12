@@ -3,9 +3,10 @@
 
   <!-- Add by Yudatun -->
   <remote name="yudatun" fetch="ssh://git@github.com"/>
+  <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <!-- END -->
 
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
+  <!--remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/-->
   <default revision="brillo-m10-release" remote="aosp" sync-j="4"/>
 
   <!-- Brillo-specific build tooling -->
