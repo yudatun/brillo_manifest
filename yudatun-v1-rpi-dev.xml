@@ -10,7 +10,9 @@
   <remove-project name="device/intel/edison" />
   <remove-project name="platform/hardware/bsp/kernel/intel/edison-v3.10" />
   <remove-project name="platform/hardware/broadcom/libbt" />
+  <!-- Intel MinnowBoard -->
   <remove-project name="device/intel/minnowboard" />
+  <remove-project name="platform/hardware/bsp/kernel/intel/minnowboard-v3.14" />
   <!-- Marvell Abox -->
   <remove-project name="device/marvell/abox_edge" />
   <remove-project name="platform/hardware/bsp/marvell" />
@@ -23,10 +25,6 @@
   <remove-project name="device/freescale/picoimx" />
   <remove-project name="platform/hardware/bsp/freescale" />
   <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
-  <!-- Imagination Creator -->
-  <remove-project name="device/imagination/creatorci41" />
-  <remove-project name="platform/hardware/bsp/imagination" />
-  <remove-project name="platform/hardware/bsp/kernel/imagination/v4.1" />
 
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
