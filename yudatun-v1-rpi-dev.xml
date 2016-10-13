@@ -41,8 +41,7 @@
            remote="yudatun" />
   <project path="external/mtools"
            name="yudatun/external_mtools"
-           remote="yudatun"
-           revision="v1-rpi-dev" />
+           remote="yudatun" />
   <project path="external/wiringPi"
            name="yudatun/external_wiringPi"
            remote="yudatun"
@@ -80,7 +79,7 @@
   <project path="vendor/raspberrypi/firmware"
            name="yudatun/vendor_raspberrypi_firmware"
            remote="yudatun"
-           revision="v1-rpi-dev" />
+           revision="master" />
   <!-- END starter boards -->
 
   <!-- Brillo product examples -->
