@@ -38,8 +38,7 @@
            revision="master" />
   <project path="external/dosfstools"
            name="yudatun/external_dosfstools"
-           remote="yudatun"
-           revision="v1-rpi-dev" />
+           remote="yudatun" />
   <project path="external/mtools"
            name="yudatun/external_mtools"
            remote="yudatun"
