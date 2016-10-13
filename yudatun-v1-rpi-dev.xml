@@ -66,8 +66,7 @@
            revision="master" />
   <project path="device/rpi/raspberrypi-common"
            name="yudatun/device_rpi_raspberrypi-common"
-           remote="yudatun"
-           revision="master" />
+           remote="yudatun" />
   <project path="hardware/bsp/bcm"
            name="yudatun/hardware_bsp_bcm"
            remote="yudatun"
