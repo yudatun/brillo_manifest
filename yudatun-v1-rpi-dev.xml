@@ -37,20 +37,20 @@
   <project path="Documentation"
            name="yudatun/Documentation"
            remote="yudatun" />
-  <project path="external/dosfstools"
-           name="yudatun/external_dosfstools"
-           remote="yudatun" />
-  <project path="external/mtools"
-           name="yudatun/external_mtools"
-           remote="yudatun" />
-  <project path="external/wiringPi"
-           name="yudatun/external_wiringPi"
-           remote="yudatun" />
   <project path="manifest"
            name="yudatun/brillo_manifest"
            remote="yudatun" />
   <project path="system/tools/pt-box"
            name="yudatun/system_tools_pt-box"
+           remote="yudatun" />
+  <project path="thirdparty/dosfstools"
+           name="yudatun/thirdparty_dosfstools"
+           remote="yudatun" />
+  <project path="thirdparty/mtools"
+           name="yudatun/thirdparty_mtools"
+           remote="yudatun" />
+  <project path="thirdparty/wiringPi"
+           name="yudatun/thirdparty_wiringPi"
            remote="yudatun" />
 
   <!-- BEGIN starter boards -->
