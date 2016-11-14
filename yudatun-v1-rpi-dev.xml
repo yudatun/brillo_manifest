@@ -36,7 +36,7 @@
            name="yudatun/brillo_system_core"
            remote="yudatun"
            groups="bdk" />
-  <project path="system/core"
+  <project path="system/firewalld"
            name="yudatun/brillo_system_firewalld"
            remote="yudatun"
            groups="bdk" />
