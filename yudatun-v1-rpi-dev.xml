@@ -46,6 +46,12 @@
            remote="yudatun"
            groups="bdk" />
 
+  <!-- AOSP open-source projects -->
+  <project path="hardware/bsp/bcm/peripheral/bluetooth/libbt"
+           name="yudatun/brillo_hardware_broadcom_libbt"
+           remote="yudatun"
+           groups="bdk" />
+
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
            name="yudatun/Documentation"
