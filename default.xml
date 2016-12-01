@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Add by Yudatun -->
+  <remote name="raspberrypi" fetch="https://github.com/raspberrypi"/>
   <remote name="yudatun" fetch="ssh://git@github.com"/>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <!-- END -->
