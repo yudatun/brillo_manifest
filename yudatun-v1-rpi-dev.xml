@@ -79,9 +79,9 @@
            name="yudatun/hardware_bsp_bcm"
            remote="yudatun" />
   <project path="hardware/bsp/kernel/bcm/linux"
-           name="yudatun/hardware_bsp_kernel_bcm_linux"
-           remote="yudatun"
-           revision="rpi-4.4.y" />
+           name="raspberrypi/linux"
+           remote="raspberrypi"
+           revision="rpi-4.9.y" />
   <project path="vendor/raspberrypi/firmware"
            name="yudatun/vendor_raspberrypi_firmware"
            remote="yudatun" />
