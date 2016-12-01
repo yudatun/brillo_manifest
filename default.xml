@@ -6,8 +6,8 @@
            review="https://android-review.googlesource.com/" />
 
   <!-- Add by Yudatun -->
-  <remote  name="yudatun"
-           fetch="ssh://git@github.com" />
+  <remote name="raspberrypi" fetch="https://github.com"/>
+  <remote  name="yudatun"    fetch="ssh://git@github.com" />
   <!-- END -->
 
   <default revision="master"
