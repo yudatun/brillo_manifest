@@ -6,12 +6,6 @@
   <remove-project name="device/generic/brillo" />
   <remove-project name="platform/external/libcap" />
 
-  <!-- Intel SoCs and Peripherals -->
-  <remove-project name="platform/hardware/bsp/intel" />
-  <remove-project name="device/intel/edison" />
-  <remove-project name="platform/hardware/bsp/kernel/intel/edison-v3.10" />
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <remove-project name="device/intel/minnowboard" />
   <!-- Marvell Abox -->
   <remove-project name="device/marvell/abox_edge" />
   <remove-project name="platform/hardware/bsp/marvell" />
