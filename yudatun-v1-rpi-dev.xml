@@ -46,12 +46,6 @@
            remote="yudatun"
            groups="bdk" />
 
-  <!-- AOSP open-source projects -->
-  <project path="hardware/bsp/bcm/peripheral/bluetooth/libbt"
-           name="yudatun/brillo_hardware_broadcom_libbt"
-           remote="yudatun"
-           groups="bdk" />
-
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
            name="yudatun/Documentation"
@@ -90,6 +84,9 @@
   <project path="device/rpi/raspberrypi-common"
            name="yudatun/device_rpi_raspberrypi-common"
            remote="yudatun" />
+  <project path="hardware/broadcom/libbt"
+           name="platform/hardware/broadcom/libbt"
+           groups="yudatun"/>
   <project path="hardware/bsp/bcm"
            name="yudatun/hardware_bsp_bcm"
            remote="yudatun"
