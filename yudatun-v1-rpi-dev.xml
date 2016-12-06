@@ -4,7 +4,6 @@
   <include name="default.xml" />
 
   <remove-project name="device/generic/brillo" />
-  <remove-project name="platform/external/libcap" />
 
   <!-- Intel SoCs and Peripherals -->
   <remove-project name="platform/hardware/broadcom/libbt" />
@@ -27,10 +26,6 @@
 
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
-           remote="yudatun"
-           groups="bdk" />
-  <project path="external/libcap"
-           name="yudatun/brillo_external_libcap"
            remote="yudatun"
            groups="bdk" />
 
