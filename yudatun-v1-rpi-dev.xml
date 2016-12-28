@@ -62,8 +62,16 @@
            name="yudatun/thirdparty_dosfstools"
            remote="yudatun"
            revision="master" />
+  <project path="thirdparty/mosca"
+           name="yudatun/thirdparty_mosca"
+           remote="yudatun"
+           revision="master" />
   <project path="thirdparty/mtools"
            name="yudatun/thirdparty_mtools"
+           remote="yudatun"
+           revision="master" />
+  <project path="thirdparty/paho.mqtt.c"
+           name="yudatun/thirdparty_paho.mqtt.c"
            remote="yudatun"
            revision="master" />
   <project path="thirdparty/wiringPi"
