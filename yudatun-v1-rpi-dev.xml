@@ -34,6 +34,11 @@
            groups="pdk,darwin"
            clone-depth="1"
            revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86"
+           name="platform/prebuilts/clang/host/linux-x86"
+           groups="linux,bdk"
+           clone-depth="1"
+           revision="master"/>
 
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
