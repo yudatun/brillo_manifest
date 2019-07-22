@@ -29,6 +29,12 @@
   <remove-project name="platform/hardware/bsp/freescale" />
   <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
 
+  <project path="prebuilts/clang/host/darwin-x86"
+           name="platform/prebuilts/clang/host/darwin-x86"
+           groups="pdk,darwin"
+           clone-depth="1"
+           revision="master"/>
+
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
