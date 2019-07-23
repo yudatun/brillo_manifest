@@ -3,6 +3,7 @@
 
   <include name="default.xml" />
 
+  <remove-project name="platform/build" />
   <remove-project name="device/generic/brillo" />
   <remove-project name="platform/external/libcap" />
   <remove-project name="platform/system/core" />
@@ -29,6 +30,7 @@
   <remove-project name="platform/hardware/bsp/freescale" />
   <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
 
+
   <project path="prebuilts/clang/host/darwin-x86"
            name="platform/prebuilts/clang/host/darwin-x86"
            groups="pdk,darwin"
@@ -40,6 +42,10 @@
            clone-depth="1"
            revision="master"/>
 
+  <project path="build" name="yudatun/third_party-android-build"
+           remote="yudatun" >
+    <copyfile src="core/root.mk" dest="Makefile"/>
+  </project>
   <project path="device/generic/brillo"
            name="yudatun/brillo_device_generic_brillo"
            remote="yudatun"
