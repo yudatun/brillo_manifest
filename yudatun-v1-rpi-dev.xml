@@ -43,7 +43,7 @@
            revision="master"/>
 
   <project path="build" name="yudatun/third_party-android-build"
-           remote="yudatun" >
+           remote="yudatun" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="device/generic/brillo"
