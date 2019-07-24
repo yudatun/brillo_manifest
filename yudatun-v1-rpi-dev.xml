@@ -6,7 +6,8 @@
   <remove-project name="platform/build" />
   <remove-project name="device/generic/brillo" />
   <remove-project name="platform/external/libcap" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/firewalld" />
 
@@ -45,6 +46,11 @@
            groups="bdk" />
   <project path="prebuilts/clang/host/darwin-x86"
            name="yudatun/third_party-android-prebuilts-clang-host-darwin-x86"
+           clone-depth="1"
+           remote="yudatun"
+           revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86"
+           name="yudatun/third_party-android-prebuilts-clang-host-linux-x86"
            clone-depth="1"
            remote="yudatun"
            revision="master"/>
