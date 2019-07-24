@@ -32,13 +32,13 @@
 
 
   <project path="prebuilts/clang/host/darwin-x86"
-           name="platform/prebuilts/clang/host/darwin-x86"
-           groups="pdk,darwin"
+           name="yudatun/third_party-android-prebuilts-clang-host-darwin-x86"
            clone-depth="1"
+           remote="yudatun"
            revision="master"/>
   <project path="prebuilts/clang/host/linux-x86"
-           name="platform/prebuilts/clang/host/linux-x86"
-           groups="linux,bdk"
+           name="yudatun/third_party-android-prebuilts-clang-host-linux-x86"
+           remote="yudatun"
            clone-depth="1"
            revision="master"/>
 
