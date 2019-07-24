@@ -30,18 +30,6 @@
   <remove-project name="platform/hardware/bsp/freescale" />
   <remove-project name="platform/hardware/bsp/kernel/freescale/picoimx-3.14" />
 
-
-  <project path="prebuilts/clang/host/darwin-x86"
-           name="yudatun/third_party-android-prebuilts-clang-host-darwin-x86"
-           clone-depth="1"
-           remote="yudatun"
-           revision="master"/>
-  <project path="prebuilts/clang/host/linux-x86"
-           name="yudatun/third_party-android-prebuilts-clang-host-linux-x86"
-           remote="yudatun"
-           clone-depth="1"
-           revision="master"/>
-
   <project path="build" name="yudatun/third_party-android-build"
            remote="yudatun" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -54,6 +42,16 @@
            name="yudatun/brillo_external_libcap"
            remote="yudatun"
            groups="bdk" />
+  <project path="prebuilts/clang/host/darwin-x86"
+           name="yudatun/third_party-android-prebuilts-clang-host-darwin-x86"
+           clone-depth="1"
+           remote="yudatun"
+           revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86"
+           name="yudatun/third_party-android-prebuilts-clang-host-linux-x86"
+           remote="yudatun"
+           clone-depth="1"
+           revision="master"/>
   <project path="system/core"
            name="yudatun/brillo_system_core"
            remote="yudatun"
@@ -77,10 +75,6 @@
            revision="master" />
   <project path="thirdparty/dosfstools"
            name="yudatun/thirdparty_dosfstools"
-           remote="yudatun"
-           revision="master" />
-  <project path="thirdparty/mosca"
-           name="yudatun/thirdparty_mosca"
            remote="yudatun"
            revision="master" />
   <project path="thirdparty/mtools"
@@ -125,10 +119,4 @@
            remote="yudatun"
            revision="master" />
   <!-- END starter boards -->
-
-  <!-- Brillo product examples -->
-  <project path="product/yudatun/yudatun-smartcar"
-           name="yudatun/product_yudatun_yudatun-smartcar"
-           remote="yudatun"
-           revision="master" />
 </manifest>
