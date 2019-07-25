@@ -59,6 +59,7 @@
   <project path="third_party/android/external/libcap"
            name="yudatun/third_party-android-external-libcap"
            remote="yudatun"
+           revision="master"
            groups="bdk" />
   <project path="third_party/android/system/firewalld"
            name="yudatun/third_party-android-system-firewalld"
