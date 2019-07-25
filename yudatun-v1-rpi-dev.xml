@@ -37,11 +37,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="device/generic/brillo"
-           name="yudatun/brillo_device_generic_brillo"
-           remote="yudatun"
-           groups="bdk" />
-  <project path="external/libcap"
-           name="yudatun/brillo_external_libcap"
+           name="yudatun/device_generic_brillo"
            remote="yudatun"
            groups="bdk" />
   <project path="prebuilts/clang/host/darwin-x86"
@@ -64,14 +60,26 @@
            remote="yudatun"
            clone-depth="1"
            revision="master"/>
-  <project path="system/core"
-           name="yudatun/brillo_system_core"
+  <project path="third_party/android/external/libcap"
+           name="yudatun/third_party-android-external-libcap"
            remote="yudatun"
            groups="bdk" />
-  <project path="system/firewalld"
-           name="yudatun/brillo_system_firewalld"
+  <project path="third_party/android/system/core"
+           name="yudatun/thrid_party-android-system-core"
            remote="yudatun"
            groups="bdk" />
+  <project path="third_party/android/system/firewalld"
+           name="yudatun/third_party-android-system-firewalld"
+           remote="yudatun"
+           groups="bdk" />
+  <project path="third_party/dosfstools"
+           name="yudatun/thirdparty_dosfstools"
+           remote="yudatun"
+           revision="master" />
+  <project path="third_party/mtools"
+           name="yudatun/thirdparty_mtools"
+           remote="yudatun"
+           revision="master" />
 
   <!-- Yudatun open-source projects -->
   <project path="Documentation"
@@ -83,22 +91,6 @@
            remote="yudatun" />
   <project path="system/tools/pt-box"
            name="yudatun/system_tools_pt-box"
-           remote="yudatun"
-           revision="master" />
-  <project path="thirdparty/dosfstools"
-           name="yudatun/thirdparty_dosfstools"
-           remote="yudatun"
-           revision="master" />
-  <project path="thirdparty/mtools"
-           name="yudatun/thirdparty_mtools"
-           remote="yudatun"
-           revision="master" />
-  <project path="thirdparty/paho.mqtt.c"
-           name="yudatun/thirdparty_paho.mqtt.c"
-           remote="yudatun"
-           revision="master" />
-  <project path="thirdparty/wiringPi"
-           name="yudatun/thirdparty_wiringPi"
            remote="yudatun"
            revision="master" />
 
@@ -116,19 +108,20 @@
            name="yudatun/device_rpi_raspberrypi-common"
            remote="yudatun" />
   <project path="hardware/broadcom/libbt"
-           name="platform/hardware/broadcom/libbt"
-           groups="yudatun"/>
+           name="yudatun/hardware_broadcom_libbt"
+           remote="yudatun"
+           revision="master"/>
   <project path="hardware/bsp/bcm"
            name="yudatun/hardware_bsp_bcm"
            remote="yudatun"
-           revision="master" />
+           revision="master"/>
   <project path="hardware/bsp/kernel/bcm/linux"
            name="yudatun/hardware_bsp_kernel_bcm_linux"
            remote="yudatun"
-           revision="rpi-4.4.y" />
+           revision="rpi-4.4.y"/>
   <project path="vendor/raspberrypi/firmware"
            name="yudatun/vendor_raspberrypi_firmware"
            remote="yudatun"
-           revision="master" />
+           revision="master"/>
   <!-- END starter boards -->
 </manifest>
