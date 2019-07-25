@@ -16,7 +16,7 @@
   <remove-project name="device/generic/brillo" />
   <remove-project name="platform/external/libcap" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
+  <!--remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/-->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/firewalld" />
 
