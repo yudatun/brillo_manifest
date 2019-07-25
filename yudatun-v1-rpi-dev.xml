@@ -69,12 +69,12 @@
            remote="yudatun"
            clone-depth="1"
            revision="master"/>
-  <project path="third_party/android/external/libcap"
-           name="yudatun/third_party-android-external-libcap"
+  <project path="system/core"
+           name="yudatun/thrid_party-android-system-core"
            remote="yudatun"
            groups="bdk" />
-  <project path="third_party/android/system/core"
-           name="yudatun/thrid_party-android-system-core"
+  <project path="third_party/android/external/libcap"
+           name="yudatun/third_party-android-external-libcap"
            remote="yudatun"
            groups="bdk" />
   <project path="third_party/android/system/firewalld"
